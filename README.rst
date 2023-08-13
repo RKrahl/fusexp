@@ -2,8 +2,8 @@ Experimental ground for FUSE
 ============================
 
 This package is not supposed to do anything useful.  It is intended as
-a playground to experiment with and to learn about Filesystem in
-Userspace (FUSE).
+a playground to experiment with and to learn about `Filesystem in
+Userspace (FUSE) <FUSE_>`_.
 
 
 System requirements
@@ -51,6 +51,7 @@ implied.  See the License for the specific language governing
 permissions and limitations under the License.
 
 
+.. _FUSE: https://www.kernel.org/doc/html/next/filesystems/fuse.html
 .. _setuptools: https://github.com/pypa/setuptools/
 .. _setuptools_scm: https://github.com/pypa/setuptools_scm/
 .. _pytest: https://pytest.org/
