@@ -11,7 +11,7 @@ import _meta
 
 # -- Project information -----------------------------------------------------
 
-project = '$distname'
+project = 'fusexp'
 copyright = '2022, Rolf Krahl'
 author = 'Rolf Krahl'
 

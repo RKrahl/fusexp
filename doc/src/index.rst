@@ -1,4 +1,4 @@
-$distname
+fusexp
 =========
 
 .. toctree::

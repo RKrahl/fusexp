@@ -102,12 +102,12 @@ with Path("README.rst").open("rt", encoding="utf8") as f:
     readme = f.read()
 
 setup(
-    name = "$distname",
+    name = "fusexp",
     version = version,
     description = docstring.split("\n")[0],
     long_description = readme,
     long_description_content_type = "text/x-rst",
-    url = "https://github.com/RKrahl/$distname",
+    url = "https://github.com/RKrahl/fusexp",
     author = "Rolf Krahl",
     author_email = "rolf@rotkraut.de",
     license = "Apache-2.0",
@@ -129,11 +129,11 @@ setup(
         # "Topic :: ?",
     ],
     project_urls = dict(
-        #Documentation="https://$distname.readthedocs.io/",
-        Source="https://github.com/RKrahl/$distname",
-        #Changes="https://$distname.readthedocs.io/en/latest/changelog.html",
+        #Documentation="https://fusexp.readthedocs.io/",
+        Source="https://github.com/RKrahl/fusexp",
+        #Changes="https://fusexp.readthedocs.io/en/latest/changelog.html",
     ),
-    packages = ["$distname"],
+    packages = ["fusexp"],
     python_requires = ">=3.4",
     install_requires = [],
     cmdclass = dict(cmdclass, build_py=build_py, sdist=sdist, meta=meta),

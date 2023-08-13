@@ -1,5 +1,5 @@
 %bcond_without tests
-%global distname $distname
+%global distname fusexp
 
 Name:		python3-%{distname}
 Version:	$version
