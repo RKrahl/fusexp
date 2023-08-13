@@ -1,13 +1,9 @@
-A skeleton for a Python package
-===============================
+Experimental ground for FUSE
+============================
 
-This repository provides a skeleton of a Python package.  It is useful
-as a starting point to create a new package.
-
-After using this template to create a new package, run the following
-command to adapt the package name::
-
-     $ python3 init.py <name>
+This package is not supposed to do anything useful.  It is intended as
+a playground to experiment with and to learn about Filesystem in
+Userspace (FUSE).
 
 
 System requirements
@@ -15,7 +11,7 @@ System requirements
 
 Python:
 
-+ Python 3.4 or newer.
++ Python 3.6 or newer.
 
 Required library packages:
 
@@ -43,7 +39,7 @@ Optional library packages:
 Copyright and License
 ---------------------
 
-Copyright 2019–2022 Rolf Krahl
+Copyright 2023 Rolf Krahl
 
 Licensed under the `Apache License`_, Version 2.0 (the "License"); you
 may not use this package except in compliance with the License.

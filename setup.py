@@ -1,7 +1,8 @@
-"""A skeleton for a Python package
+"""Experimental ground for FUSE
 
-This package itself does nothing useful.  It is a skeleton of a Python
-package that may be used as a starting point to create a new package.
+This package is not supposed to do anything useful.  It is intended as
+a playground to experiment with and to learn about Filesystem in
+Userspace (FUSE).
 """
 
 import setuptools
@@ -113,12 +114,10 @@ setup(
     license = "Apache-2.0",
     classifiers = [
         "Development Status :: 1 - Planning",
-        # "Intended Audience :: ?",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
-        "Operating System :: OS Independent",
+        "Operating System :: POSIX",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -126,15 +125,13 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
-        # "Topic :: ?",
+        "Topic :: System :: Filesystems",
     ],
     project_urls = dict(
-        #Documentation="https://fusexp.readthedocs.io/",
         Source="https://github.com/RKrahl/fusexp",
-        #Changes="https://fusexp.readthedocs.io/en/latest/changelog.html",
     ),
     packages = ["fusexp"],
-    python_requires = ">=3.4",
+    python_requires = ">=3.6",
     install_requires = [],
     cmdclass = dict(cmdclass, build_py=build_py, sdist=sdist, meta=meta),
 )
